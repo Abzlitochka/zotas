@@ -16,10 +16,10 @@
     "seed": "npx tsx prisma/seed.ts"
   },
   "dependencies": {
-    "@prisma/adapter-better-sqlite3": "^7.4.0",
-    "@prisma/client": "^7.4.0",
+    "@prisma/adapter-better-sqlite3": "^6.0.0",
+    "@prisma/client": "^6.0.0",
     "next": "16.1.6",
-    "prisma": "^7.4.0",
+    "prisma": "^6.0.0",
     "react": "19.2.3",
     "react-dom": "19.2.3"
   },
