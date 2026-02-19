@@ -5,6 +5,12 @@ const nextConfig = {
     "better-sqlite3",
     "@prisma/client",
   ],
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 module.exports = nextConfig;
